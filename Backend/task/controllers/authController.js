@@ -41,7 +41,7 @@ const registerUser = async (req, res) => {
     expiresIn: '1h'
   });
 
-  res.status(201).json({ token });
+  res.status(201).json({ token ,msg:"user registered successfully"});
 };
 
 // Login user
@@ -62,7 +62,7 @@ const loginUser = async (req, res) => {
     expiresIn: '1h'
   });
 
-  res.json({ token });
+  res.json({ token,msg:"Logedin successfully" });
 };
 
 module.exports = { registerUser, loginUser };
