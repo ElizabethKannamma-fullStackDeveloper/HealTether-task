@@ -49,11 +49,9 @@ npm run dev
 ```
 ## Screenshots
 
-![HT-SS-2](https://github.com/user-attachments/assets/b9ea7825-5470-47eb-a48e-c363c606b0ad)
-
 ![HT-SS-1](https://github.com/user-attachments/assets/5f289384-f4f8-4fc2-9bc7-f68a705d3141)
 
-
+![HT-SS-2](https://github.com/user-attachments/assets/b9ea7825-5470-47eb-a48e-c363c606b0ad)
 
 
 
