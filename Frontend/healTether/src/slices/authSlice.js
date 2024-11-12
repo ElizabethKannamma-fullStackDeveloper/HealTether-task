@@ -14,7 +14,7 @@ export const loginUser = createAsyncThunk(
   'auth/loginUser',
   async ({ email, password }, thunkAPI) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', { email, password });
+      const response = await axios.post('https://healtether-9kv0.onrender.com/api/auth/login', { email, password });
       // Save token to localStorage on successful login
       localStorage.setItem('token', response.data.token);
       return response.data;  // Return the response, which contains the token and user data
@@ -28,7 +28,7 @@ export const registerUser = createAsyncThunk(
   'auth/registerUser',
   async ({ username, email, password }, thunkAPI) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', { username, email, password });
+      const response = await axios.post('https://healtether-9kv0.onrender.com/api/auth/register', { username, email, password });
       // Return response, which contains the token
       localStorage.setItem('token', response.data.token);
       return response.data;
